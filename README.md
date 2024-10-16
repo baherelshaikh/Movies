@@ -31,7 +31,8 @@ A robust and scalable movie application that leverages Node.js, Express, MongoDB
 
 3. **Run the application**
     ```bash
-    npm start
+    node app.js
+
 
 ## Features
 - User authentication and authorization
