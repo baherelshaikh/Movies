@@ -27,7 +27,7 @@ const UserSchema = new mongoose.Schema({
   },
   image: {
     type: String,
-    default: path.join(__dirname,'./uploads/user2.jpg'),
+    default: path.join(__dirname,'../public/uploads/user2.jpg'),
   },
 });
 UserSchema.pre('save', async function () {
