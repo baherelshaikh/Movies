@@ -44,6 +44,7 @@ A robust and scalable movie application that leverages Node.js, Express, MongoDB
 Once the app is running, you can access the following endpoints:
 
 ## Endpoints
+https://movies-production-bcff.up.railway.app + one the following
 
 ## Authentication
 - POST /api/v1/auth/register - Register a new user
@@ -55,6 +56,7 @@ Once the app is running, you can access the following endpoints:
 
 ## Movies
 - GET /api/v1/movie/all/:divisionName - Get a list of movies
+  you have 5 divisions ["movies", "TopRated", "upComing", "TVSeries", "trending"] and "all" if you want all divisions 
 - GET /api/v1/movie/:id - Get a specific movie by ID
 - GET /api/v1/movie/displayMovie/:id - display a specific movie by ID
 
