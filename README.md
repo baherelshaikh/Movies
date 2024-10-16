@@ -44,21 +44,21 @@ A robust and scalable movie application that leverages Node.js, Express, MongoDB
 Once the app is running, you can access the following endpoints:
 
 ## Endpoints
-https://movies-production-bcff.up.railway.app + one the following
+https://watchy.up.railway.app/api/v1 + one of the following
 
 ## Authentication
-- POST /api/v1/auth/register - Register a new user
-- POST /api/v1/auth/login - Login an existing user
-- GET /api/v1/auth/logout - Logout the user
+- POST /auth/register - Register a new user
+- POST /auth/login - Login an existing user
+- GET  /auth/logout - Logout the user
 
 ## Users
-- GET /api/v1/user/showMe - Get user profile
+- GET /user/showMe - Get user profile
 
 ## Movies
-- GET /api/v1/movie/all/:divisionName - Get a list of movies
-  (you have 5 divisions ["movies", "TopRated", "upComing", "TVSeries", "trending"] and "all" if you want all divisions)
-- GET /api/v1/movie/:id - Get a specific movie by ID
-- GET /api/v1/movie/displayMovie/:id - display a specific movie by ID
+- GET /movie/all/:divisionName - Get a list of movies  
+  ( you have 5 divisions ["movies", "TopRated", "upComing", "TVSeries", "trending"] and "all" if you want all divisions )
+- GET /movie/:id - Get a specific movie by ID
+- GET /movie/displayMovie/:id - display a specific movie by ID
 
 ## Technologies Used
 - Node.js
